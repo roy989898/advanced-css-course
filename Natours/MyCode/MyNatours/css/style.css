@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 COLORS:
 
@@ -6,3 +7,17 @@ Medium green: #55c57a
 Dark green: #28b485
 
 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*當你設定一個元素樣式為 box-sizing: border-box;，
+  這個元素的內距和邊框將不會增加元素本身的寬度。我們用跟上一頁一樣的例子，
+  但我們將兩個元素都設定了 box-sizing: border-box; ：
+  */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
